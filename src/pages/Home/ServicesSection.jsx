@@ -71,11 +71,11 @@ const ServicesSection = () => {
                 {/* Service Content */}
                 <div className="flex flex-col items-center gap-4 w-full">
                   <h3
-                    className={`text-xl font-bold leading-tight tracking-tight drop-shadow-lg text-white group-hover:text-emerald-200 group-hover:scale-105 transition-all duration-500`}
+                    className={`text-xl font-bold leading-tight tracking-tight drop-shadow-lg text-[#fb0100] group-hover:text-red-400 group-hover:scale-105 transition-all duration-500`}
                   >
                     {service?.title}
                   </h3>
-                  <p className="text-gray-200 text-sm leading-relaxed drop-shadow-md group-hover:text-white group-hover:translate-y-1 transition-all duration-500">
+                  <p className="text-[#fb0100] text-sm leading-relaxed drop-shadow-md group-hover:text-red-300 group-hover:translate-y-1 transition-all duration-500">
                     {service?.description}
                   </p>
                 </div>
