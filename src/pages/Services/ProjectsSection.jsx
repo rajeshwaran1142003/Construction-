@@ -50,7 +50,7 @@ const ProjectsSection = () => {
           {projects.map((project, index) => (
             <div 
               key={index} 
-              className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-emerald-100"
+              className="group bg-slate-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 border border-slate-200"
             >
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0">
@@ -64,10 +64,10 @@ const ProjectsSection = () => {
                       {project.type}
                     </span>
                   </div>
-                  <h3 className="text-gray-800 text-lg font-bold mb-4 leading-relaxed">
+                  <h3 className="text-gray-900 text-lg font-bold mb-4 leading-relaxed">
                     {project.project}
                   </h3>
-                  <div className="flex items-center gap-2 text-gray-600">
+                  <div className="flex items-center gap-2 text-gray-700">
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                     </svg>
@@ -81,17 +81,17 @@ const ProjectsSection = () => {
 
         {/* Stats Section */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="text-center bg-white rounded-2xl p-8 shadow-lg border border-emerald-100">
+          <div className="text-center bg-slate-50 rounded-2xl p-8 shadow-lg border border-slate-200">
             <div className="text-4xl font-bold text-emerald-600 mb-2">25+</div>
-            <div className="text-gray-700 font-semibold">Years Experience</div>
+            <div className="text-gray-800 font-semibold">Years Experience</div>
           </div>
-          <div className="text-center bg-white rounded-2xl p-8 shadow-lg border border-emerald-100">
+          <div className="text-center bg-slate-50 rounded-2xl p-8 shadow-lg border border-slate-200">
             <div className="text-4xl font-bold text-emerald-600 mb-2">100+</div>
-            <div className="text-gray-700 font-semibold">Projects Completed</div>
+            <div className="text-gray-800 font-semibold">Projects Completed</div>
           </div>
-          <div className="text-center bg-white rounded-2xl p-8 shadow-lg border border-emerald-100">
+          <div className="text-center bg-slate-50 rounded-2xl p-8 shadow-lg border border-slate-200">
             <div className="text-4xl font-bold text-emerald-600 mb-2">100%</div>
-            <div className="text-gray-700 font-semibold">Client Satisfaction</div>
+            <div className="text-gray-800 font-semibold">Client Satisfaction</div>
           </div>
         </div>
       </div>

@@ -29,7 +29,7 @@ const MissionVisionSection = () => {
           {/* Right Side - Content */}
           <div className="order-1 lg:order-2 space-y-10">
             {/* Our Mission */}
-            <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-emerald-100">
+            <div className="group bg-slate-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-slate-200">
               <div className="flex items-center gap-4 mb-6">
                 <div className="p-3 bg-emerald-100 rounded-xl group-hover:bg-emerald-200 transition-colors">
                   <svg className="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -40,7 +40,7 @@ const MissionVisionSection = () => {
                   Our Mission
                 </h2>
               </div>
-              <p className="text-gray-700 text-base leading-relaxed">
+              <p className="text-gray-800 text-base leading-relaxed">
                 To be a leading construction firm that delivers excellent value and innovative solutions to our clients. 
                 We are committed to providing high-level service, improving team competence, and building a safety culture 
                 to achieve zero accidents in all our projects.
@@ -48,7 +48,7 @@ const MissionVisionSection = () => {
             </div>
             
             {/* Our Vision */}
-            <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-emerald-100">
+            <div className="group bg-slate-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-slate-200">
               <div className="flex items-center gap-4 mb-6">
                 <div className="p-3 bg-emerald-100 rounded-xl group-hover:bg-emerald-200 transition-colors">
                   <svg className="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -73,7 +73,7 @@ const MissionVisionSection = () => {
                     <h3 className="text-emerald-600 text-lg font-semibold mb-2">
                       Excellence
                     </h3>
-                    <p className="text-gray-700 text-sm leading-relaxed">
+                    <p className="text-gray-800 text-sm leading-relaxed">
                       We strive for excellence in every project we undertake, ensuring quality workmanship and attention to detail.
                     </p>
                   </div>
@@ -90,7 +90,7 @@ const MissionVisionSection = () => {
                     <h3 className="text-emerald-600 text-lg font-semibold mb-2">
                       Innovation
                     </h3>
-                    <p className="text-gray-700 text-sm leading-relaxed">
+                    <p className="text-gray-800 text-sm leading-relaxed">
                       We embrace innovative construction solutions to meet the evolving needs of our clients and the industry.
                     </p>
                   </div>
@@ -107,7 +107,7 @@ const MissionVisionSection = () => {
                     <h3 className="text-emerald-600 text-lg font-semibold mb-2">
                       Safety
                     </h3>
-                    <p className="text-gray-700 text-sm leading-relaxed">
+                    <p className="text-gray-800 text-sm leading-relaxed">
                       We are committed to maintaining the highest safety standards, working towards our goal of zero accidents.
                     </p>
                   </div>

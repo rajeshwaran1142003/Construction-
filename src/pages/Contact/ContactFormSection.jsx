@@ -36,7 +36,7 @@ const ContactFormSection = () => {
         {/* Contact Info Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 max-w-4xl mx-auto">
           {/* Email Card */}
-          <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-emerald-100">
+          <div className="group bg-slate-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-slate-200">
             <div className="flex items-center gap-4 mb-4">
               <div className="p-3 bg-emerald-100 rounded-xl group-hover:bg-emerald-200 transition-colors">
                 <svg className="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -44,8 +44,8 @@ const ContactFormSection = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-800">Email</h3>
-                <p className="text-gray-600">Send us a message</p>
+                <h3 className="text-xl font-bold text-gray-900">Email</h3>
+                <p className="text-gray-700">Send us a message</p>
               </div>
             </div>
             <a href="mailto:sales.ammanconstruction@gmail.com" className="text-emerald-600 font-semibold text-lg hover:text-emerald-700 transition-colors break-all">
@@ -54,7 +54,7 @@ const ContactFormSection = () => {
           </div>
 
           {/* WhatsApp Card */}
-          <div className="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-emerald-100">
+          <div className="group bg-slate-50 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-slate-200">
             <div className="flex items-center gap-4 mb-4">
               <div className="p-3 bg-green-100 rounded-xl group-hover:bg-green-200 transition-colors">
                 <svg className="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 24 24">
@@ -62,8 +62,8 @@ const ContactFormSection = () => {
                 </svg>
               </div>
               <div>
-                <h3 className="text-xl font-bold text-gray-800">WhatsApp</h3>
-                <p className="text-gray-600">Chat with us</p>
+                <h3 className="text-xl font-bold text-gray-900">WhatsApp</h3>
+                <p className="text-gray-700">Chat with us</p>
               </div>
             </div>
             <a href="https://wa.me/6581195016" target="_blank" rel="noreferrer" className="text-green-600 font-semibold text-lg hover:text-green-700 transition-colors">
@@ -74,19 +74,19 @@ const ContactFormSection = () => {
 
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-gray-800 text-4xl font-bold mb-4">
+            <h2 className="text-gray-900 text-4xl font-bold mb-4">
               How can we <span className="text-emerald-600">help?</span>
             </h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            <p className="text-gray-700 text-lg max-w-2xl mx-auto">
               Fill out the form below and we'll get back to you within 24 hours. For urgent inquiries, please call or WhatsApp us directly.
             </p>
           </div>
           
-          <div className="bg-white rounded-2xl shadow-xl p-10 border border-emerald-100">
+          <div className="bg-slate-50 rounded-2xl shadow-xl p-10 border border-slate-200">
             <form onSubmit={handleSubmit} className="space-y-8">
               {/* Name Field */}
               <div className="group">
-                <label htmlFor="name" className="block text-sm font-semibold text-gray-700 mb-3">
+                <label htmlFor="name" className="block text-sm font-semibold text-gray-800 mb-3">
                   Full Name
                 </label>
                 <input
@@ -103,7 +103,7 @@ const ContactFormSection = () => {
 
               {/* Email Field */}
               <div className="group">
-                <label htmlFor="email" className="block text-sm font-semibold text-gray-700 mb-3">
+                <label htmlFor="email" className="block text-sm font-semibold text-gray-800 mb-3">
                   Email Address
                 </label>
                 <input
@@ -120,7 +120,7 @@ const ContactFormSection = () => {
 
               {/* Message Field */}
               <div className="group">
-                <label htmlFor="message" className="block text-sm font-semibold text-gray-700 mb-3">
+                <label htmlFor="message" className="block text-sm font-semibold text-gray-800 mb-3">
                   Project Details
                 </label>
                 <textarea
@@ -154,17 +154,17 @@ const ContactFormSection = () => {
         {/* Map and Quick Contact */}
         <div className="max-w-6xl mx-auto mt-16">
           <div className="text-center mb-12">
-            <h3 className="text-gray-800 text-3xl font-bold mb-4">
+            <h3 className="text-gray-900 text-3xl font-bold mb-4">
               Visit Our <span className="text-emerald-600">Office</span>
             </h3>
-            <p className="text-gray-600 text-lg">
+            <p className="text-gray-700 text-lg">
               1 Soon Lee Street, #02-29 Pioneer Centre, Singapore 627605
             </p>
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Map */}
-            <div className="w-full h-[400px] rounded-2xl overflow-hidden shadow-xl border border-emerald-100">
+            <div className="w-full h-[400px] rounded-2xl overflow-hidden shadow-xl border border-slate-200">
               <iframe
                 title="Office location map"
                 width="100%"
@@ -179,8 +179,8 @@ const ContactFormSection = () => {
             
             {/* Quick Contact Options */}
             <div className="flex flex-col justify-center space-y-6">
-              <div className="bg-white rounded-2xl p-8 shadow-lg border border-emerald-100">
-                <h4 className="text-xl font-bold text-gray-800 mb-6">Quick Contact</h4>
+              <div className="bg-slate-50 rounded-2xl p-8 shadow-lg border border-slate-200">
+                <h4 className="text-xl font-bold text-gray-900 mb-6">Quick Contact</h4>
                 <div className="space-y-4">
                   <a
                     href="https://wa.me/6581195016"
@@ -194,8 +194,8 @@ const ContactFormSection = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-800">WhatsApp Chat</p>
-                      <p className="text-sm text-gray-600">Get instant response</p>
+                      <p className="font-semibold text-gray-900">WhatsApp Chat</p>
+                      <p className="text-sm text-gray-700">Get instant response</p>
                     </div>
                   </a>
                   
@@ -209,8 +209,8 @@ const ContactFormSection = () => {
                       </svg>
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-800">Email Us</p>
-                      <p className="text-sm text-gray-600">sales.ammanconstruction@gmail.com</p>
+                      <p className="font-semibold text-gray-900">Email Us</p>
+                      <p className="text-sm text-gray-700">sales.ammanconstruction@gmail.com</p>
                     </div>
                   </a>
                 </div>

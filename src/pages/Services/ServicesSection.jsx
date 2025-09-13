@@ -47,19 +47,19 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <div 
               key={index} 
-              className="group rounded-xl bg-emerald-600 border border-emerald-400 ring-1 ring-emerald-300 p-8 text-center shadow-lg shadow-emerald-700/30 transition-all duration-500 hover:-translate-y-2 hover:rotate-1 hover:shadow-2xl hover:shadow-emerald-500/40 hover:border-emerald-300 hover:ring-emerald-200 hover:bg-emerald-500 hover:scale-105"
+              className="group rounded-xl bg-slate-800 border border-slate-600 ring-1 ring-slate-500 p-8 text-center shadow-lg shadow-slate-900/50 transition-all duration-500 hover:-translate-y-2 hover:rotate-1 hover:shadow-2xl hover:shadow-slate-700/60 hover:border-slate-500 hover:ring-slate-400 hover:bg-slate-700 hover:scale-105"
             >
               <div className="flex flex-col items-center gap-6">
-                <div className="inline-flex items-center justify-center p-3 rounded-xl bg-emerald-500 shadow-md shadow-emerald-900/30 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg group-hover:shadow-emerald-400/50 transition-all duration-500">
+                <div className="inline-flex items-center justify-center p-3 rounded-xl bg-emerald-600 shadow-md shadow-emerald-900/50 group-hover:scale-110 group-hover:rotate-12 group-hover:shadow-lg group-hover:shadow-emerald-400/60 transition-all duration-500">
                   <span className="text-white text-2xl leading-none group-hover:scale-110">
                     {service.icon}
                   </span>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-white group-hover:text-emerald-100 group-hover:scale-105 text-xl font-bold leading-tight tracking-tight mb-3 transition-all duration-500">
+                  <h3 className="text-white group-hover:text-emerald-200 group-hover:scale-105 text-xl font-bold leading-tight tracking-tight mb-3 transition-all duration-500">
                     {service.title}
                   </h3>
-                  <p className="text-emerald-100 group-hover:text-white group-hover:translate-y-1 text-sm leading-relaxed transition-all duration-500">
+                  <p className="text-gray-200 group-hover:text-white group-hover:translate-y-1 text-sm leading-relaxed transition-all duration-500">
                     {service.description}
                   </p>
                 </div>
